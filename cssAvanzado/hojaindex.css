@@ -1,0 +1,145 @@
+:root{
+    --primaryColor:aqua;
+    --secundaryColor:black;
+    --thirdColor:aliceblue;
+    --primaryFont:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --fontsizeX:19px;
+    --fontsizeM:20px;
+    --fontsizeL:30px;
+    --fontsizeXL: 40px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    background-color:var(--primaryColor);
+    height: 200px;
+    border: 10px solid var(--secundaryColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-size: var(--fontsizeL);
+    font-family:var(--primaryFont);
+    position: relative;
+    top: 30px;
+}
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.enlace1:hover{
+    background-color:var(--primaryColor);
+    color:var(--secundaryColor);
+    text-shadow: var(--secundaryColor);
+    transform: scale(1,3);
+}
+.enlace2:hover{
+    background-color:var(--primaryColor);
+    color:var(--secundaryColor);
+    text-shadow:var(--secundaryColor);
+    transform: scale(1,3);
+
+}
+.enlace3:hover{
+    background-color:var(--primaryColor);
+    color: var(--secundaryColor);
+    text-shadow: var(--secundaryColor);
+    transform: scale(1,3);
+
+}
+.enlace4:hover{
+    background-color:var(--primaryColor);
+    color:var(--secundaryColor);
+    text-shadow: var(--secundaryColor);
+    transform: scale(1,3);
+}
+.enlace2{
+    height: 30px;
+    font-size: 19px;
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.enlace1{
+    height: 30px;
+    font-size:var(--fontsizeX);
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.enlace3{
+    height: 30px;
+    font-size: var(--fontsizeX);
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.enlace4{
+    height: 30px;
+    font-size: var(--fontsizeX);
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.info{
+    background-color:var(--secundaryColor);
+    height: 411px;
+    display: flex;
+    flex-direction: row;
+}
+.photos{
+    
+    width: 550px;
+}
+.text{
+    
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: nowrap;
+
+}
+.photo1{
+    
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-wrap: nowrap;
+
+}
+.letras{
+    font-size:var(--fontsizeM);
+    color:var(--thirdColor);
+    position: relative;
+    right: 50px;
+}
+.letras::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ 

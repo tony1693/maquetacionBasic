@@ -1,0 +1,180 @@
+:root{
+    --primaryColor:aqua;
+    --secundaryColor:black;
+    --thirdColor:aliceblue;
+    --primaryFont:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --fontsizeX:19px;
+    --fontsizeM:20px;
+    --fontsizeL:30px;
+    --fontsizeXL: 40px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.titulo{
+    background-color:var(--primaryColor);
+    height: 200px;
+    border: 10px solid var(--secundaryColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-size: var(--fontsizeL);
+    font-family:var(--primaryFont);
+    position: relative;
+    top: 30px;
+}
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.enlace1:hover{
+    background-color:var(--primaryColor);
+    color:var(--secundaryColor);
+    text-shadow: var(--secundaryColor);
+    transform: scale(1,3);
+}
+.enlace2:hover{
+    background-color:var(--primaryColor);
+    color:var(--secundaryColor);
+    text-shadow:var(--secundaryColor);
+    transform: scale(1,3);
+
+}
+.enlace3:hover{
+    background-color:var(--primaryColor);
+    color: var(--secundaryColor);
+    text-shadow: var(--secundaryColor);
+    transform: scale(1,3);
+
+}
+.enlace4:hover{
+    background-color:var(--primaryColor);
+    color:var(--secundaryColor);
+    text-shadow: var(--secundaryColor);
+    transform: scale(1,3);
+}
+.enlace2{
+    height: 30px;
+    font-size: 19px;
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.enlace1{
+    height: 30px;
+    font-size:var(--fontsizeX);
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.enlace3{
+    height: 30px;
+    font-size: var(--fontsizeX);
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.enlace4{
+    height: 30px;
+    font-size: var(--fontsizeX);
+    background-color:var(--secundaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 2s ease-in-out;
+}
+.contenedorTitulo{
+    background-color:var(--secundaryColor);
+    height: 80px;
+    color: var(--primaryColor);
+    font-size:var(--fontsizeL);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorTitulo:hover{
+    color: var(--thirdColor);
+}
+.contenedorPadre{
+    background-color: var(--secundaryColor);
+    height: 410px;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor{
+    background-color:var(--secundaryColor);
+    height: 320px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nombre1{
+    color: var(--thirdColor);
+    font-size: var(--fontsizeX);   
+}
+.email{
+    color: var(--thirdColor);
+    font-size: var(--fontsizeX);
+}
+.movil{
+    color: var(--thirdColor);
+    font-size: var(--fontsizeX);
+}
+.empresa{
+    color: var(--thirdColor);
+    font-size: var(--fontsizeX);
+}
+.mensaje{
+    color: var(--thirdColor);
+    font-size: var(--fontsizeX);
+}
+.contenedor2{
+    height: 390px;
+    width: 600px;
+    position: relative;
+    right: 30px;
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    position: relative;
+    left: 35px;
+}
+.encabezado{
+    font-size:var(--fontsizeL);
+    color: var(--thirdColor);
+}
+.contenedor3{ 
+    height: 60px;
+    width: 370px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+.enlace5{
+    font-size: var(--fontsizeM);
+}
+.fa-brands{
+    color: var(--primaryColor);
+}
