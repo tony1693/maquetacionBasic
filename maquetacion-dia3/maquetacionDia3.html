@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/hojaStileDia3.css">
+    <link rel="javascript" href="/maquetacionDia3.js">
+
+    <title>retos dia 3</title>
+</head>
+<body>
+    <section class="padre1">
+  <article class="h1">Toni-Travel 
+</section>
+<section class="padre2">
+    <article class="h2"><b>INFO :</b></article>
+    <article class="p">Una agencia de viajes, Tony-Travel (agente de viajes, Toni-travel) es una empresa o persona física que se dedica a la venta al por menor de servicios turísticos individuales y viajes al consumidor, el turista o los clientes corporativos.</article>
+</selection>
+<section class="contenedor">
+    <article class="tarjeta">
+        <div class="titulo">Oferta viaje</div>
+        <div class="cuerpo">
+            <figure class="imagen">
+        <img class="imagen-photo" src="/color-del-otoño-en-parís-30805500.webp" alt="muestra">
+           Viaje a paris desde:500€
+            </figure>
+        <div class="pie">
+          <a href="#">Más información</a>
+        </div>
+    </article>
+        <article class="tarjeta2">
+            <div class="titulo2">Oferta viaje</div>
+            <div class="cuerpo2">
+            <img src="/pyramids-giza-great-sphinx-egypt-260nw-1353953285.webp" alt="muestra">
+               Viaje a Egipto desde:1000€
+            </div>
+            <div class="pie2">
+              <a href="#">Más información</a>
+            </div>
+        </article>
+        <article class="tarjeta3">
+            <div class="titulo3">Oferta viaje</div>
+            <div class="cuerpo3">
+                <figure class="imagen3">
+            <img class="imagen-photo3" src="/istockphoto-908964390-612x612.jpg" alt="muestra3">
+               Viaje a Italia desde:300€
+            </figure>
+            </div>
+            <div class="pie3">
+              <a href="#">Más información</a>
+            </div>
+        </article>
+</section>
+<section class="padreF">
+    <title>Formulario de Contacto</title>
+    
+  
+      <h1>Formulario de Contacto</h1>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type ="text" id="nombre" name="nombre" required><br><br>
+    
+        <label for="origen">Origen:</label>
+        <input type ="text" id="origen" name="origen" required><br><br>
+    
+        <label for="destino">Destino:</label>
+        <input type ="text" id="destino" name="destino" required><br><br>
+    
+        <label for="num_personas">Número de personas:</label>
+        <input type ="number" id="num_personas" name="num_personas" min="1" required><br><br>
+    
+        <label for="fecha">Fecha:</label>
+        <input type ="date" id="fecha" name="fecha" required><br><br>
+    
+        <button type="submit" onclick="displayinfo()" name="solicitar_info">Solicitar Información</button>
+        <button type="submit" onclick="filterdestins()" name="filtrar">Filtrar</button>
+      </form>
+    </section>
+    <div id="results">
+      <h2>Search Results</h2>
+      <ul id="listaDestin">
+          
+      </ul>
+  </div>
+  <script src="./maquetacionDia3.js"></script>
+</body>
+</html>
