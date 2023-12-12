@@ -1,0 +1,200 @@
+:root{
+    --primaryColor:whitesmoke;
+    --secunadaryColor:black;
+    --thirdColor:blue;
+    --fontXS:14;
+    --fontS:
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 750px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+.spaceLogin{
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.insta{
+    height: 100px;
+    width: 350px;
+    font-size: 45px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: normal;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.inputName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    margin-left:65px ;
+    width: 200px;
+    height: 30px;
+    border-radius: 1px solid black;
+
+
+    
+}
+.boton{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.nose{
+    background-color:var(--thirdColor);
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.colorFont{
+    color: var(--primaryColor);
+    
+}
+.face{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 20px;   
+}
+.no-underline{
+    color: var(--thirdColor);
+}
+.fa-brands{
+    color: var(--thirdColor);
+}
+.pass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10px;
+}
+.text{
+    margin: 10px;
+    margin-top: 40px;
+    text-decoration: none;
+    
+}
+.regis{
+    height: 40px;
+    width: 350px;
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+._ab25{
+   
+    
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.boton1{
+    height: 35px;
+}
+.boton2{
+    height: 35px;
+
+}
+.contenedorLink{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 380px;
+    height: 200px;
+    margin-top:50px ;
+}
+.primaryContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.secundaryContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.thirdContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.roomContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.x1lliihq{
+    font-size: 13px;
+}
+.movil{
+    height: 200px;
+    width: 200px;
+}
+.photo1{
+    object-fit: cover;
+}
+.movil{
+    display: none;
+}
+@media screen and (min-width: 640px){
+    .spaceLogin{
+        border: 1px solid black;
+    }
+    .regis{
+        border: 1px solid black;
+
+    }
+}
+@media screen and (min-width:870px){
+    .wep{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        
+        
+    }
+    .movil{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 30px;
+        position: relative;
+        left: 70px;
+        
+
+    }
+}
+
