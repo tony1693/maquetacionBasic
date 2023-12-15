@@ -1,0 +1,45 @@
+:root{
+    --primaryColor:green;
+    --secuandaryColor:black;
+    --thirdColor:aliceblue;
+
+}
+* {
+    /* display: block; */
+    margin: 0;
+}
+
+.child {
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+} 
+.A{
+    background-color: var(--primaryColor);
+    
+}
+.B{
+    background-color:var(--secuandaryColor);
+    color: var(--thirdColor);
+}
+.C{
+    background-color: var(--primaryColor);
+}
+.D{
+    background-color: var(--secuandaryColor);
+    color: var(--thirdColor);
+}
+.E{
+    background-color:var(--primaryColor);
+}
+.F{
+    background-color: var(--secuandaryColor);
+    color: var(--thirdColor);
+}

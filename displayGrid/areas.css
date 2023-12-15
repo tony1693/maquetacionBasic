@@ -1,0 +1,92 @@
+:root{
+    --primaryColor:brown;
+    --secuandaryColor:chocolate;
+    --thirdColor:orange;
+    --roomColor:orangered;
+    --edgesColor:whitesmoke;
+    --borderSolid1:2px solid whitesmoke;
+    --borderSolid2:2px solid black;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.container1{
+    display: grid;
+    grid-template-areas: "header imagen";
+}
+.child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--edgesColor);
+}
+.A{
+    background-color: var(--secuandaryColor);
+    height: 100px;
+    width: 900px;
+    
+}
+.B{
+    background-color:var(--primaryColor) ;
+    width: 372px;
+}
+.padreMayor{
+    display: flex;
+    flex-direction: row;
+}
+.container2{
+    background-color:var(--thirdColor);
+    height:400px ;
+    width:450px ;
+    display: grid;
+    grid-template-areas: "aside" "hueco" "aside2";
+
+}
+.aside{
+    background-color: var(--edgesColor);
+    height: 100px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--thirdColor);
+}
+.C{
+    grid-area:aside;
+}
+.D{
+    grid-area:aside2;
+}
+.container3{
+    display: grid;
+    grid-template-areas: "contenido" "texto";
+    background-color: var(--roomColor);
+    width:900px;
+}
+.info{
+    border: 1px solid var(--edgesColor);
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--edgesColor);
+
+}
+.container4{
+    display: grid;
+    grid-template-areas: "footer";
+    background-color: var(--primaryColor);
+    height: 110px;
+    color: var(--edgesColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+

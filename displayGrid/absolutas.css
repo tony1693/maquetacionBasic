@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns:486px 300px 486px;
+    grid-template-rows: 310px 300px ;
+}
+.child{
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: azure;
+
+}
+.A{
+    background-color: greenyellow;
+}
+.B{
+    background-color: orange;
+}
+.C{
+    background-color: tomato;
+}
+.D{
+    background-color: brown;
+}
+.E{
+    background-color: blue;
+}
+.F{
+    background-color: yellow;
+}
