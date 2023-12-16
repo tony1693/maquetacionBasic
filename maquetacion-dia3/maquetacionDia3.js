@@ -15,29 +15,28 @@ const infoPerson = {
     date1: date1
 };
     informacion.push(infoPerson);
-    displayinfo(infoPerson);
-
+    
 }
 const infolist = document.getElementById("listaDestin");
 
 function filterdestins () {
-    const imputDestino = getElementById("destino").value;
 
     const filteredList = informacion.filter( solicitud => {
-        const searchCondition = imputDestino === 'galicia' || solicitud.destination.toLowerCase().includes(imputDestino.toLowerCase());
-        const searchCondition1 = imputDestino === 'mayorca' || imputDestino === solicitud.destination.toLowerCase().includes(searchCondition1.toLowerCase());
-        const searchCondition2 = imputDestino === 'canarias' || imputDestino === solicitud.destination.toLowerCase().includes(searchCondition2.toLowerCase());
+        const searchCondition = solucitud.destination.toLowerCase() === 'galicia' ;
+        const searchCondition2 = solucitud.destination.toLowerCase() === 'mayorca';
+        const searchCondition3 = solicitud.destination.toLowerCase() === 'canarias'; 
 
-        return searchCondition && searchCondition1 && searchCondition2;
+        return searchCondition || searchCondition2 || searchCondition3;
     })
         displayinfo(filteredList);
 }        
 function displayinfo (filteredList){
-        filteredList.forEach(solicitud1 => {
         clearList();
-        const solicitud1 = document.createElement('li');
-        solicitud1.textContent = `nombre: ${infoPerson.nombre} - destino: ${infoPerson.destination} - numb_personas: ${infoPerson.numbPerson}`;
-        infolist.appendChild(solicitud1);
+
+        filteredList.forEach(solicitud1 => {
+        const solicitud = document.createElement('li');
+        solicitud.textContent = `nombre: ${solicitud1.nombre} - destino: ${solicitud1.destination} - numb_personas: ${solicitud1.numbPerson}`;
+        infolist.appendChild(solicitud);
       });
     }
 
